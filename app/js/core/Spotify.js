@@ -6,10 +6,10 @@ import {magic} from './Magic';
 let client = Client.instance;
 
 client.settings = {
-  clientId: '',
-  secretId: '',
+  clientId: 'd3cb55056c1644bfb3748e01c3812b89',
+  secretId: 'd80ae11672a0493789057730b0476c91',
   scopes: 'playlist-modify-public playlist-modify-private',
-  redirect_uri: 'http://localhost:3000/app/login/index.html'
+  redirect_uri: 'https://playlist12.herokuapp.com/'
 };
 
 let settings = {
